@@ -1,3 +1,5 @@
 # VBA
 
-an excel app that grabs info from dictionary api using vba
+## Automated Vocabulary-Improvement App in Excel
+
+
