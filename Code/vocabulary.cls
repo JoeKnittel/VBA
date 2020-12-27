@@ -324,11 +324,10 @@ End Sub
 Function outputRawJSon() As String
     
     Dim Json As Object
-    Set Json = JsonConverter.ParseJson(getData(getURL("caught")))
+    Set Json = JsonConverter.ParseJson(getData(getURL("tester")))
     
-   ' Debug.Print (Len(JsonConverter.ConvertToJson(Json))) 'JsonConverter.ConvertToJson(Json, Whitespace:=2))
     Debug.Print (JsonConverter.ConvertToJson(Json(1), Whitespace:=2))
-    'JsonConverter.ConvertToJson (Json(1)("def")(1)("sseq")(1)(1)(2)("dt")(1)(2))
+
 End Function
 
 'debug function: clears the immediate window
