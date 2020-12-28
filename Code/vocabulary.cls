@@ -149,7 +149,7 @@ Function getPoS(word As String) As String
 
 End Function
 
-'munges json data from api response and finds desired the url of the desired word's pronunciation
+'munges json data from api response and finds the url of the desired word's pronunciation
 Function getPronunciation(word As String) As String
     
     Dim data, temp, folder As String
@@ -279,11 +279,11 @@ Function getTransformedDef(word As String) As String
         temp = Left(temp, posD - 1) & Mid(temp, endD + 5)
     End If
         
-    'replaces "\u2013" with the appropriate "–"
+    'replaces "\u2013" with the appropriate "Â–"
     Dim posDash As Integer
     posDash = InStr(temp, "\u2013")
     While posDash > 1
-        temp = Left(temp, posDash - 1) & "–" & Mid(temp, posDash + 6)
+        temp = Left(temp, posDash - 1) & "Â–" & Mid(temp, posDash + 6)
         posDash = InStr(temp, "\u2013")
     Wend
     
