@@ -2,7 +2,7 @@
 
 ## Automated Vocabulary-Improvement App in Excel
 
-This project was completed in my spare time as a fun coding experiment.
+*This project was completed in my spare time as a fun coding experiment.*
 
 Everyone, from time time, whether while reading an old novel or perusing the news, encounters an obscure word and can't quite grasp its meaning via context clues. A quick Google search normally does the job, but what happens when you inevitably forget the definition a few days down the road?
 
