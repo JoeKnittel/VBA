@@ -135,7 +135,6 @@ Function getID(word As String) As String
     
 End Function
 
-
 'munges json data from api response and finds the desired word's part of speech
 Function getPoS(word As String) As String
     
@@ -193,7 +192,7 @@ Sub outputDef()
 
 End Sub
 
-'cleans up definition string (i.e., formatting tags), preparing it for printing to screen
+'cleans up definition string (i.e., removes formatting tags), preparing it for printing to screen
 Function getTransformedDef(word As String) As String
     
     'removes " from start and end of def (and {bc} from start, if necessary)
@@ -308,8 +307,7 @@ End Sub
 'when a new word is added to the list, this sub is called; a link to the word's pronunciation is placed in the cell three places to its right
 Sub printPronunciation(row As Integer, col As Integer)
         
-    ActiveSheet.Hyperlinks.Add Cells(row, col), Address:=getPronunciation(Cells(row, col - 3).Value), TextToDisplay:=ChrW(&HD83D) & ChrW(&HDD0A)
-'    Call stylizeHyperlinks
+    ActiveSheet.Hyperlinks.Add Cells(row, col), Address:=getPronunciation(Cells(row, col - 3).Value), TextToDisplay:=ChrW(&HD83D) & ChrW(&HDD0A) 'sound emoji
 
 End Sub
 
