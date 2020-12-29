@@ -1,3 +1,6 @@
+'Joe Knittel
+'Last Update: 12/29/2020
+
 VERSION 1.0 CLASS
 BEGIN
   MultiUse = -1  'True
