@@ -18,6 +18,6 @@ Below is an animated .gif demonstrating the file's general usage:
 
 ### Contained in this repository: 
 
-- code written in VBA
-- the main MS Excel file 
-- external modules and classes 
+- Code written in VBA
+- External VBA modules and classes 
+- Underlying MS Excel file 
