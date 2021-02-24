@@ -1,6 +1,6 @@
 # VBA-Experiment
 
-## Automated Vocabulary-Improvement App in Excel
+## Automated Vocabulary-Improvement App
 
 *This project was completed as a fun coding experiment. More details can be found on my blog <a href = "https://joeknittel.github.io/2021/01/19/Extending-the-Functionality-of-Excel.html">here</a>.*
 
