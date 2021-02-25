@@ -2,7 +2,7 @@
 
 ## Automated Vocabulary-Improvement App (2020)
 
-*This project was completed as a fun coding experiment and as a tool for everyday use. More details can be found on my blog <a href = "https://joeknittel.github.io/2021/01/19/Extending-the-Functionality-of-Excel.html">here</a>.*
+*This project was completed as a tool for my everyday personal use. More details can be found on my blog <a href = "https://joeknittel.github.io/2021/01/19/Extending-the-Functionality-of-Excel.html">here</a>.*
 
 Everyone, from time time, whether while reading an old novel or perusing the news, encounters an obscure word and can't determine its meaning via context clues. A quick Google search normally does the job, but what happens when you inevitably forget the definition a few days down the road?
 
